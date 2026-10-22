@@ -1,0 +1,20 @@
+.DS_Store
+/.build/
+/Packages
+xcuserdata/
+DerivedData/
+.swiftpm/
+.netrc
+
+# Build artifacts and symlinks (root only)
+/MiniRec.app/
+/minirec
+*.o
+*.dylib
+*.a
+
+# Test & capture outputs
+*.mp4
+*.mov
+*.gif
+*.png
